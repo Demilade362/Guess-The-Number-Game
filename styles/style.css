@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  text-align: center;
+}
+
+nav {
+  background: #8a2be2;
+  color: #ffffff;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  background: #8a2be2;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #3f3f3f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+#firstAI,
+#secondAI,
+#thirdAI {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

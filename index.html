@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Random Number Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>Guess The Number</h1>
+      </nav>
+      <h3>From 1 - 50</h3>
+      <div>
+        <input type="number" id="first"/>
+        <input type="number" id="second"/>
+        <input type="number" id="third"/>
+      </div>
+      <div class="btn">
+        <button id="play" onclick="play()">Play</button>
+      </div>
+      <div>
+        <span id="result"></span>
+      </div>
+      <h3>This is the Random Number</h3>
+      <div>
+        <span id="firstAI"></span>
+        <span id="secondAI"></span>
+        <span id="thirdAI"></span>
+      </div>
+    </div>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
